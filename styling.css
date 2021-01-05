@@ -1,0 +1,119 @@
+body {
+	
+	font-family: "apercu",sans-serif;
+	text-align: center;
+	margin: 5%;
+	margin-top: 1%;
+	background: #F5DEB3;	
+
+}
+ h1 {
+	text-transform: uppercase;
+	font-size: 60px;
+	letter-spacing: 0.8em;
+	text-align: center;
+	padding: 10%;
+	margin-bottom: 1%;
+	background-image: url("images/fatoni.jpg");
+	background-size: 100%;
+	text-shadow: white 0.1em 0.1em 0.2em;
+
+}
+h3{
+
+
+}
+div, p {
+	text-align: left;
+	content: 100px;
+}
+
+header {
+	
+	margin: 1%;
+
+}
+
+/* box vom text zu fatoni index */
+
+.box, .text {
+	float: left;
+	margin: 1%;
+	padding: 2%;		
+	background: #f90;
+
+
+	}
+
+/* box der tabelle zu den alben index */
+
+.box2 {
+	background: #f90;
+	margin: 1%;
+
+}
+
+
+table {
+	float: left;
+	background: #f90;
+	text-align: center; 
+	
+}
+
+/* diskogrphie, boxen mit alben */
+
+.al, .a1, .a2, .a3, .a4, .a5 {
+float: left;
+width: 345px;
+min-height: 700px;
+margin: 10px;
+padding: 20px;
+background: #f90;
+	border: #452A00;
+	
+
+
+
+}
+
+/* tabelle index mit alben */
+
+td,th {
+	background-color: #C60;
+}
+
+/* tabelle index */
+
+.box2 table
+{
+	width: 100%;
+	border-spacing: 10px;
+
+}
+
+a {
+	color: black;
+}
+.dis{
+	width: 300px;
+	height: 300px;
+}
+
+.nav {
+	clear: left;
+}
+
+/* bildergalerie */
+
+.bilder {
+	color: #FF9A1A;
+	position: static;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 140%;
+	height: auto;
+}
+
+	
